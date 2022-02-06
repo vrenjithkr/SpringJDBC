@@ -1,0 +1,9 @@
+CREATE TABLE `employee` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `empname` varchar(45) DEFAULT NULL,
+  `empAge` int DEFAULT NULL,
+  `empaddress` varchar(45) DEFAULT NULL,
+  `salary` decimal(50,0) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+SELECT * FROM mydb.employee;
